@@ -1,4 +1,5 @@
 from user import User
+from abstractdemo import Vehicle,Car,Bike
 
 user1 = User("Nasrudeen","123abc")
 user2 = User("Yaseen","123abc")
@@ -14,3 +15,9 @@ u1.register()   # Registering...Alice
 u2.login()      # Logging...abcd
 
 print(User.users)  # 2 (because two User objects were created)
+
+
+car= Car()
+car.start()
+
+vehicle =Vehicle()
